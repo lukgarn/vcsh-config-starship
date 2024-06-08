@@ -16,12 +16,12 @@ $shlvl$jobs$container$shell\
 $character"""
 
 [character]
-success_symbol = '[➜](bold green) '
-error_symbol = '[➜](bold red) '
-vimcmd_symbol = '[V](bold green) '
-vimcmd_replace_one_symbol = '[V](bold purple) '
-vimcmd_replace_symbol = '[V](bold purple) '
-vimcmd_visual_symbol = '[V](bold yellow) '
+success_symbol = '[➜](bold green)'
+error_symbol = '[➜](bold red)'
+vimcmd_symbol = '[V](bold green)'
+vimcmd_replace_one_symbol = '[V](bold purple)'
+vimcmd_replace_symbol = '[V](bold purple)'
+vimcmd_visual_symbol = '[V](bold yellow)'
 
 [conda]
 format = '[$symbol$environment]($style) '
