@@ -29,6 +29,7 @@ format = '[ $duration]($style) '
 [conda]
 format = '[$symbol$environment]($style) '
 symbol = '🅒 '
+ignore_base = false
 
 [directory]
 truncation_symbol = '.../'
