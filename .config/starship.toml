@@ -23,6 +23,9 @@ vimcmd_replace_one_symbol = '[V](bold purple)'
 vimcmd_replace_symbol = '[V](bold purple)'
 vimcmd_visual_symbol = '[V](bold yellow)'
 
+[cmd_duration]
+format = '[ $duration]($style) '
+
 [conda]
 format = '[$symbol$environment]($style) '
 symbol = '🅒 '
