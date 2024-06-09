@@ -9,7 +9,6 @@ $git_branch$git_commit$git_status$git_metrics$git_state$package\
 $kubernetes\
 $docker_context\
 $cmd_duration\
-$fill \
 $direnv$c$cmake$python$rust$vagrant$conda\
 $line_break\
 $shlvl$jobs$container$shell\
@@ -46,9 +45,9 @@ format = '(\([+$added]($added_style)/[-$deleted]($deleted_style)\)) '
 
 [git_status]
 format = '(\[[$all_status$ahead_behind]($style)\])'
-ahead = '⇡${count}'
-diverged = '⇕⇡${ahead_count}⇣${behind_count}'
-behind = '⇣${count}'
+ahead = ' 󰁞${count}'
+diverged = ' 󰁞${ahead_count}󰁆${behind_count}'
+behind = ' 󰁆${count}'
 
 [hostname]
 ssh_only = false
