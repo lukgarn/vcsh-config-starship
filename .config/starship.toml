@@ -36,10 +36,6 @@ truncation_symbol = '.../'
 repo_root_style = 'bold red'
 fish_style_pwd_dir_length = 1
 
-[fill]
-symbol = '_' 
-style = 'bold bright-black'
-
 [git_branch]
 truncation_length = 32
 format = '[$symbol$branch(:$remote_branch)]($style) '
