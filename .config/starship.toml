@@ -36,7 +36,7 @@ repo_root_style = 'bold red'
 fish_style_pwd_dir_length = 1
 
 [git_branch]
-truncation_length = 32
+truncation_length = 24
 format = '[$symbol$branch(:$remote_branch)]($style) '
 
 [git_metrics]
