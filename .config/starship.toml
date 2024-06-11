@@ -53,9 +53,6 @@ behind = ' 󰁆${count}'
 ssh_only = false
 format = '[$hostname]($style)'
 
-[kubernetes]
-disabled = false
-
 [package]
 format = '[$version]($style) '
 
