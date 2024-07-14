@@ -9,7 +9,7 @@ $git_branch$git_commit$git_status$git_metrics$git_state$package\
 $kubernetes\
 $docker_context\
 $cmd_duration\
-$direnv$c$cmake$python$rust$vagrant$conda\
+$direnv$c$cmake$rust$vagrant$conda$python\
 $line_break\
 $shlvl$jobs$container$shell\
 $character"""
