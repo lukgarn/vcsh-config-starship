@@ -12,6 +12,7 @@ $cmd_duration\
 $direnv$c$cmake$rust$vagrant$conda$python\
 $line_break\
 $shlvl$jobs$container$shell\
+$status\
 $character"""
 
 [character]
@@ -75,6 +76,13 @@ repeat = true
 symbol = '❯'
 repeat_offset = 1
 threshold = 0
+
+[status]
+format = '[\[$symbol($common_meaning )($signal_number:$signal_name )(\($status\))\] ]($style)'
+symbol = ""
+disabled = false
+map_symbol = true
+#style = "fg:red"
 
 [vcsh]
 format = 'vcsh:[$repo]($style) '
