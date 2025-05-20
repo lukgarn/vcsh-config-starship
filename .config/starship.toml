@@ -82,7 +82,6 @@ format = '[\[$symbol($common_meaning )($signal_number:$signal_name )(\($status\)
 symbol = ""
 disabled = false
 map_symbol = true
-#style = "fg:red"
 
 [vcsh]
 format = 'vcsh:[$repo]($style) '
